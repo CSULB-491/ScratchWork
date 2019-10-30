@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Validator</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">The Validator</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active drop" href="#">
+                  <span data-feather="home"></span>
+                  Home <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#">
+                  <span data-feather="file"></span>
+                  Filter
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="settings"></span>
+                  Account
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#">
+                  <span data-feather="help-circle"></span>
+                  Support
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Tech</span>
+              <a class="d-flex align-items-center text-muted" href="#">
+                <span data-feather="plus-circle"></span>
+              </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  TechCrunch
+                </a>
+              </li>
+            </ul>
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>News</span>
+              <a class="d-flex align-items-center text-muted" href="#">
+                <span data-feather="plus-circle"></span>
+              </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  The NY Times
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Fox News
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Google News
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h5><span data-feather="settings"></span> User Settings</h5>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary"><span data-feather="share-2"></span></button>
+                <button class="btn btn-sm btn-outline-secondary"><span data-feather="refresh-ccw"></span></button>
+              </div>
+              <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+              </button>
+            </div>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feed Settings</a>
+            </li>
+          </ul>
+          <br>
+          <div class="card" style="width: 18rem;">
+            <img src="oldman.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">OldGrumpyGuy</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-danger">Deactivate Account</a>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <div class="card-header">
+              Display Name
+            </div>
+            <div class="card-body">
+              <p>Username: OldGrumpyGuy</p>
+              <button class="btn btn-outline-primary">Change</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              About
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <button class="btn btn-outline-primary">Change</button>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <h5>Avatar</h5>
+          <br>
+          <div class="card">
+            <div class="card-header">
+              Image Upload
+            </div>
+            <div class="card-body">
+              <p>Images must be .png or .jpg format</p>
+              <button class="btn btn-outline-primary"><span data-feather="upload"></span> Upload Image</button>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
